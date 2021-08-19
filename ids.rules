@@ -1,0 +1,4 @@
+alert ftp any any -> any any (msg:"Unsecure protocol use detected";)
+alert tcp any any -> any 8888 (msg:"backdoor attack";)
+alert dhcp any any -> any any (msg:"dhcp spoofing";)
+alert udp any any -> any 9999 (msg:"backdoor attack";)
