@@ -1,2 +1,7 @@
-[Documentation.pdf](https://github.com/BilalAazzani/IDS/files/7011286/Documentation.pdf)
 # IDS
+
+Commande pour compiler le programme :
+gcc -Wall -o ids main.c populate.c -lpcap
+
+Commande pour exécuter le programme :
+./ids ids.rules
